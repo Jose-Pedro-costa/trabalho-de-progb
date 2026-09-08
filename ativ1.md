@@ -27,7 +27,7 @@ Novas migrations poderão ser adicionadas posteriormente caso seja necessário a
 3. Qual o caminho do arquivo que gera a seed do seu banco?
 A seed do banco ficará no seguinte caminho:
 ````
-api/Data/Seed/DbInitializer.cs
+api/seed/db_initializer.py
 ````
 Esse arquivo será responsável por inserir dados iniciais no banco de dados (músicas de exemplo, usuários de teste etc.), facilitando os testes e o desenvolvimento da aplicação
 
