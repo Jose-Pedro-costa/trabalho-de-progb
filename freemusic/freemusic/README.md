@@ -24,7 +24,7 @@ Encontrar músicas de forma rápida, com filtros úteis (gênero, artista, dura�
 ```bash
 # 1. Backend
 cd backend
-cp .env.example .env   # ajuste DATABASE_URL se necessário
+cp .env.example .env   
 npm install
 npx tsx migrate.ts
 psql $DATABASE_URL -f seed.sql
@@ -36,6 +36,3 @@ npm install
 npm run dev
 ```
 
-## Licença das músicas
-
-Usamos apenas músicas de domínio público ou Creative Commons para fins educacionais.
