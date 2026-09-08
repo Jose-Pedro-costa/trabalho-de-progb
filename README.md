@@ -59,14 +59,3 @@ Aplicação destinada à pesquisa, visualização e download de músicas atravé
 
 Frontend Mobile:
 Versão mobile para facilitar o acesso pelo celular
-
- Arquitetura
- ````
- React Web ────────┐
-                  │
-                  ▼
-           Node.js / Express API
-                  │
-                  ▼
-             PostgreSQL / MongoDB
-
